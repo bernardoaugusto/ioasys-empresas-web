@@ -1,0 +1,48 @@
+#login {
+    max-width: 357.8px;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login img {
+    width: 295px;
+    height: 72px;
+    object-fit: contain;
+}
+
+#login strong {
+    margin-top: 33.5px;
+    width: 176px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#login p {
+    margin-top: 20.6px;
+    font-size: 18px;
+    text-align: center;
+    color: #383743;
+    margin-bottom: 33.5px;
+}
+
+#loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading .icon {
+    position: absolute;
+    color: #57bbbc;
+    font-size: 900%;
+}

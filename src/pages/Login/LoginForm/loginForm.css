@@ -1,0 +1,93 @@
+#login form {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#login form .input-block {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #383743;
+}
+
+#login form .input-block img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    align-items: center;
+}
+
+#login form .input-block img.eye {
+    width: 0px;
+    height: 0px;
+    object-fit: contain;
+    align-items: center;
+    transition-delay: 0.4s;
+}
+
+#login form .input-block:focus-within img.eye {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    align-items: center;
+    cursor: pointer;
+}
+
+#login form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+form .input-block input {
+    padding-left: 12px;
+    width: 100%;
+    height: 32px;
+    font-size: 18px;
+    color: #383743;
+    border: 0;
+    background: #eeecdb;
+}
+
+form .input-block input::placeholder {
+    color: #383743;
+}
+
+
+form button {
+    width: 100%;
+    height: 58px;
+    border-radius: 3px;
+    background: #57bbbc;
+
+    border: 0;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #55b1b3;
+}
+
+
+
+#login form p.invalidLogin {
+    font-size: 12px;
+    color: #ff0f44;
+}
+
+#login form .input-block p.invalidLogin {
+    margin: 0;
+    padding-top: 2.3px;
+    font-size: 18px;
+    width: 30px;
+    height: 26px;
+    background: #ff0f44;
+    color: white;
+    border-radius: 50%;
+}
+
+#login form .input-block.invalid {
+    border-bottom: 1px solid #ff0f44;
+}

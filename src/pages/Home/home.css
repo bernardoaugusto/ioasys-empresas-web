@@ -1,0 +1,122 @@
+#home {
+    width: 100%;
+    height: 100%;
+    background: #ebe9d7;
+    display: flex;
+    flex-direction: column;
+}
+
+#home header {
+    height: 75.5px;
+    background: linear-gradient(#979797, #ee4c77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home header .searchLogo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#home header .searchLogo img.logo {
+    width: 117.1px;
+    height: 28.5px;
+    object-fit: contain;
+}
+
+#home header .searchLogo .searchIcon {
+    position: absolute;
+    width: 100%;
+    height: 75.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img.searchImage {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#home header .searchLogo .searchIcon img.searchImage {
+    margin-right: 20px;
+}
+
+
+#home header .search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 20px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #d8d8d8;
+    transition: 0.5s;
+}
+
+
+#home header .search input {
+    flex: 1;
+    padding-left: 12px;
+    width: 100%;
+    height: 32px;
+    font-size: 18px;
+    color: #ffffff;
+    border: 0;
+    background: transparent;
+    background-color: transparent;
+}
+
+#home header .search input::placeholder {
+    color: #991237;
+}
+
+#home header .search img.close {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+#home .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .main {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+#home .main .screen {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+}
+
+
+#home .main .screen p.message {
+    color: #b5b4b4;
+    font-size: 17px;
+}
+
+#home .main ul {
+    align-self: center;
+}
